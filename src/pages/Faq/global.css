@@ -1,0 +1,50 @@
+.faq * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.faq body {
+    background-color: #212121;
+}
+
+.faq .wrapper {
+    max-width: 1220px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.faq .header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+    margin-top: 2rem;
+}
+
+.faq .nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.faq .nav-link{
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #878a8a;
+    
+    transition: all 0.15s;
+}
+
+.faq .nav-link:hover{
+    color: #fff;
+}
+
+.faq h1{
+    font-size: 2rem;
+    color: #fff;
+}
